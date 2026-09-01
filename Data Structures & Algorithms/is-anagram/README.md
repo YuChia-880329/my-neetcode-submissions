@@ -10,12 +10,12 @@
 
 ---
 ## Complexity
-|Solution|time|space|
-|---|:---|:---|
-|**Solution 1**|amortized expected `O(m+n)`|worst case `O(m+n)`|
-|**Solution 2**|amortized expected `O(m+n)`|worst case `O(m+n)`|
-|**Solution 3**|amortized expected `O(m+n)`|worst case `O(1)`|
-|**Solution 4**|amortized expected `O(m+n)`|worst case `O(1)`|
+|Solution|Submission|Time|Space|
+|---|---|:---|:---|
+|**Solution 1**|Submission 0|amortized expected `O(m+n)`|worst case `O(m+n)`|
+|**Solution 2**|Submission 1|amortized expected `O(m+n)`|worst case `O(m+n)`|
+|**Solution 3**|Submission 2|amortized expected `O(m+n)`|`O(1)`|
+|**Solution 4**|Submission 3|amortized expected `O(m+n)`|`O(1)`|
 
 ---
 ## Note
