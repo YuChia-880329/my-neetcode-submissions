@@ -10,3 +10,8 @@
 |---|---|:---|:---|
 |**Solution 1**|submission-0|amortized expected `O(n)`|worst case `O(n)`|
 |**Solution 2**|submission-1|amortized expected `O(n)`|worst case `O(n)`|
+
+---
+## Note
+- The key of the solution is to realize that the math equation of this problem `nums[i] + nums[j] = target` can be rearraged as `nums[i] = target - nums[j]` and focus on one element first.
+	- It may be the key point of view for three-sum, four-sum, etc.
