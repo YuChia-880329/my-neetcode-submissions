@@ -7,16 +7,20 @@
 - **Solution 4**: We utilize one list instead of one hash table to record the difference of frequency and fix the list size to count 26 lower case alphabets.
 	- If we fix the size, we don't need hash table
  	- From hashing to direct addressing
-- **Solution 5**: We use the built-in tool: Counter. It works really well in practice.
+- **Solution 5**: We use the built-in tool: Counter.
+	- It works really well in practice.
 
 ---
 ## Complexity
+- n : len(*s*)
+- m : len(*t*)
+
 |Solution|Submission|Time|Space|
 |---|---|:---|:---|
 |**Solution 1**|submission-0|amortized expected `O(m+n)`|worst case `O(m+n)`|
 |**Solution 2**|submission-1|amortized expected `O(m+n)`|worst case `O(m+n)`|
 |**Solution 3**|submission-2|amortized expected `O(m+n)`|`O(1)`|
-|**Solution 4**|submission-3|amortized expected `O(m+n)`|`O(1)`|
+|**Solution 4**|submission-3|`O(m+n)`|`O(1)`|
 |**Solution 5**|submission-4|amortized expected `O(m+n)`|worst case `O(m+n)`|
 
 ---
