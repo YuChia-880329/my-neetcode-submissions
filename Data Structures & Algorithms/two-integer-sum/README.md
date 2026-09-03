@@ -6,9 +6,11 @@
 
 ---
 ## Complexity
+- n : len(*nums*)
+
 |Solution|Submission|Time|Space|
 |---|---|:---|:---|
-|**Solution 1**|submission-0|amortized expected `O(n)`|worst case `O(n)`|
+|**Solution 1**|submission-0|amortized expected `O(n)`|`O(n)`|
 |**Solution 2**|submission-1|amortized expected `O(n)`|worst case `O(n)`|
 
 ---
