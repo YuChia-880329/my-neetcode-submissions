@@ -11,7 +11,7 @@
 
 |Solution|Submission|Time|Auxiliary Space|
 |:---:|:---:|:---|:---|
-|**Solution 1**|submission-2|amortized expected `O(n^2)`|worst case `O(n^2)`|
+|**Solution 1**|submission-1|amortized expected `O(n^2)`|worst case `O(n^2)`|
 
 
 ---
