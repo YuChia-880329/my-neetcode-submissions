@@ -3,8 +3,8 @@
   - This solution is more elegant and readable but takes more space.
 - **Solution 2**: We directly use two pointers to check the string, skipping the character when it's not alphanumeric.
   - The edge condition has to be carefully treated.
-    1. Is the stopping condition `p_left>p_right` always safe?
-    2. No, if `p_right==n-1`, `p_left` might become `n`
+    1. Is the stopping condition `s[p_left].isalnum()` always safe?
+    2. No, if `p_right==n-1` and non-alphanumeric, `p_left` might become `n`
 
 
 
