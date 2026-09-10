@@ -15,7 +15,7 @@
 
 |Solution|Submission|Time|Auxiliary Space|
 |:---:|:---:|:---|:---|
-|**Solution 1**|submission-9|`O(n^2)`|`O(1)`|
+|**Solution 1**|submission-9<br>(or submission-10)|`O(n^2)`|`O(1)`|
 
 
 ---
@@ -37,3 +37,12 @@
   - The sorting python use is *Tim sort*.
     - `O(n*logn)` time complexity in the worst case
     - `O(n)` space complexity in the worst case
+
+|Sorting|Best Time|Average Time|Worst Time|Auxiliary Space|Notes|
+|:---:|:---|:---|:---|:---|:---|
+|**Bubble Sort**|`O(n)`|`O(n^2)`|`O(n^2)`|`O(1)`|using the `swapped` flag|
+|**Insertion Sort**|`O(n)`|`O(n^2)`|`O(n^2)`|`O(1)`||
+|**Heap Sort**|`O(n*logn)`|`O(n*logn)`|`O(n*logn)`|`O(1)`||
+|**Merge Sort**|`O(n*logn)`|`O(n*logn)`|`O(n*logn)`|`O(n)`|stable; the recusion using stack frames|
+|**Quick Sort(naive)**|`O(n*logn)`|`O(n*logn)`|`O(n^2)`|average case `O(logn)`<br>worst case `O(n)`|the recusion using stack frames|
+|**Quick Sort(with Tail-Call Optimization)**|`O(n*logn)`|`O(n*logn)`|`O(n^2)`|strict `O(logn)`|only recurring on the smaller half|
