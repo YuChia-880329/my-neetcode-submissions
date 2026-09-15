@@ -13,7 +13,7 @@
 
 |Solution|Submission|Time|Auxiliary Space|
 |:---:|:---:|:---|:---|
-|**Solution 1**|submission-1|`O(n)`|`O(m)`|
+|**Solution 1**|submission-2|`O(n)`|`O(m)`|
 
 
 ---
